@@ -1,4 +1,4 @@
-# countless
+# countless ▲
 
 A simple Chrome extension to hide [Tweet Views](https://twitter.com/elonmusk/status/1605957811162054656) across the Twitter platform.
 
