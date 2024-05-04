@@ -1,7 +1,7 @@
 {
     "name": "countless",
     "description": "Don't like views on your Tweets? Remove it using countless!",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 3,
     "icons": {
         "16": "logo.png",
