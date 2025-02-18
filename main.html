@@ -10,13 +10,10 @@
     }
 
     .container {
-      width: 400px;
+      width: 280px;
       margin: 0 auto;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      padding: 20px;
+      background-color: transparent;
+      padding: 8px;
     }
 
     .message {
@@ -56,10 +53,10 @@
       padding: 10px 20px;
       background-color: #000;
       border: 0;
-      border-radius: 4px;
+      border-radius: 10px;
       color: #fff;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .twi {
@@ -69,16 +66,19 @@
       margin: 0 auto;
       padding: 10px 20px;
       background-color: transparent;
-      border-color: #0080ff;
       border-width: 1px;
-      border-radius: 4px;
+      border-radius: 10px;
       color: #000;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .git:hover {
       background-color: #0066cc;
+    }
+
+    .twi:hover {
+      background-color: #dddddd90;
     }
 
     .row {
@@ -101,12 +101,10 @@
   <div class="container">
     <img src="./logo.png" />
     <h1>countless</h1>
-    <p>Don't like the view count on your Tweets? While countless is active you won't have to see those pesky numbers
-      again!</p>
-    <p class="message">Thank you for using countless. Please star the Github repo and feel free to contribute. Also,
-      come say hi to me on Twitter.</p>
+    <p>remove distractions from twitter</p>
+    <p class="message">Thank you for using countless. Please star the Github repo, feel free to contribute, and come say hi to me on Twitter.</p>
     <div class="row">
-      <button id="git" class="git">GitHub Repo</button>
+      <button id="git" class="git">Source Code</button>
       <button id="twi" class="twi">
         Twitter</button>
     </div>
@@ -125,7 +123,7 @@
           <title>red-heart</title>
           <path class="cls-1"
             d="M60.83,17.18c8-8.35,13.62-15.57,26-17C110-2.46,131.27,21.26,119.57,44.61c-3.33,6.65-10.11,14.56-17.61,22.32-8.23,8.52-17.34,16.87-23.72,23.2l-17.4,17.26L46.46,93.55C29.16,76.89,1,55.92,0,29.94-.63,11.74,13.73.08,30.25.29c14.76.2,21,7.54,30.58,16.89Z" />
-        </svg></span>&nbsp;by <a id="link" href="https://example.com">Mayur Bhoi</a>
+        </svg></span>&nbsp;by <a id="link" href="https://mayurbhoi.com/?ref=countless">Mayur Bhoi</a>
     </p>
   </div>
   <script src="button.js"></script>
