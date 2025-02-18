@@ -30,11 +30,11 @@ Countless injects a content script into every page on [x.com](https://x.com). Th
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/countless.git
+git clone https://github.com/mayur57/countless.git
 cd countless
 ```
 
-### Load the Extension in Your Browser
+### Install the Extension
 
 #### For Chrome (or other Chromium-based browsers):
 
